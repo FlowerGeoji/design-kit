@@ -1,8 +1,11 @@
 {
-    "name": "stylekit",
+    "name": "flowerstylekit",
+    "version": "0.0.1",
     "packageManager": "yarn@4.0.1",
+    "module": "./dist/index.mjs",
+    "types": "./dist/types/index.d.ts",
     "scripts": {
-        "build": "rollup --config rollup.config.mjs"
+        "build": "rm -rf ./dist && rollup --config rollup.config.mjs"
     },
     "devDependencies": {
         "@babel/core": "^7.23.3",

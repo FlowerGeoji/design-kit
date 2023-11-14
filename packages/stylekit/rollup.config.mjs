@@ -4,7 +4,7 @@ import typescript from "@rollup/plugin-typescript"
 export default {
     input: "./src/index.tsx",
     output: {
-        file: "./dist/bundle.js",
+        file: "./dist/index.mjs",
         format: "es",
         sourcemap: true,
     },

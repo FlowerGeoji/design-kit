@@ -7,6 +7,10 @@
         {
             "name": "📦 stylekit",
             "path": "packages/stylekit"
+        },
+        {
+            "name": "📦 ui-test",
+            "path": "packages/ui-test"
         }
     ],
     "settings": {
